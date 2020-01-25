@@ -1,0 +1,384 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+  height: 100%;
+  background-image: url("../img/bg01.png");
+  background-size: cover;
+  background-position: top center;
+ font-family: 'Lato'; 
+ margin: 0;
+ overflow-x: hidden; 
+ 
+}
+
+button{
+  border:none;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+.mt-6{
+	margin-top: 7%;
+}
+.blue1{
+ 
+  position: relative;
+  width:100%;
+  height: 328.7px;
+  text-align: center;
+     cursor: pointer;
+   z-index: 100;
+   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+   background-color: #000000;
+background-image: linear-gradient(147deg, #191919 0%, #131313 74%);
+
+ 
+
+}
+.blue1 button p{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 0 auto;
+	
+	  display: table-cell;
+         width:100%;
+  height: 200px;
+        
+        vertical-align: middle;
+	
+}
+
+
+
+.blue1:hover
+{
+   
+   position: relative;
+    transform: scale(1.2);
+  
+    z-index: 1000;
+   background-color: #f9484a;
+background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
+
+    
+}
+
+img.mimg1{
+  width: 50%;
+  height:auto;
+}
+.cd{
+  font-size: 35px;
+  color: white;
+}
+
+/*Modal open travel*/
+.modal-open .modal{
+ background-image: url(../img/modalbg/modalbg1.jpg);
+  background-color: black;
+   background-size: cover;
+  background-position: top center;
+}
+.modal-open .modal{
+  animation: moveUp 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+.close {
+
+    position: absolute;
+    margin-right: 20px;
+    right: 0;
+    z-index: 1000;
+}
+.out {
+animation: moveUp 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+@keyframes moveUp {
+  0% {
+    transform: translateY(350px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes moveDown {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(350px);
+  }
+}
+
+.modal-open .modals  {
+  -webkit-animation: slide-left 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+          animation: slide-left 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+}
+
+.modal-open .modals {
+  
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 300;
+  top:6.8%;
+  position: relative;
+  left: 60%;
+    width: 100%;
+    height: auto;
+}
+
+
+.modal-open .modals .tit h2 {
+text-align: center;
+
+}
+.modal-open .modals .tit h3 {
+text-align: center;
+margin-left: 45%;
+font-size:25px;
+
+}
+.modal-open .modals img
+{
+  position: relative;
+  width:100%;
+  height:100%;
+  margin-left: 89px;
+  opacity: 0.7;
+  
+
+}
+.modal-open .modals .tit{
+  /* text-align: center;
+
+    position: fixed;
+    width: 98%;
+    margin-left: 23%;
+    margin-top: -120%;*/
+    width: 80%;
+    position: absolute;
+    top: 5%;
+    left: 32%;
+    
+}
+
+.travel2{
+  top: 6.3%;
+  position: relative;
+}
+.travel2 .modals1{
+      position: relative;
+    background-color: #EAEFEC;
+    width: 90%;
+    height: 100%;
+   top: 6.8%;
+   
+    left: 58px;
+    padding-bottom: 1px;
+}
+.modal-open .modals {
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 300;
+    top: 6.3%;
+    position: relative;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+/*image slide*/
+
+.slider{
+  text-align:center;
+  padding-top: 5px; 
+}
+.slider img{
+  vertical-align: middle;
+}
+.mainim{
+  width:150px;
+  height:150px;
+  display:inline-block;
+ 
+}
+
+.leftim,.rightim{
+  margin-top:-x;
+  width:100px;
+  height:100px;
+  opacity:.6;
+  display:inline-block;
+}
+
+.titcontent {
+    top: 1%;
+    position: relative;
+    width: 100%;
+    /* margin-top: 4px; */
+  }
+
+.travel2 .modals1 .mainim img:hover{
+  position: relative;
+   width:230px;
+  height:230px;
+  margin-left: -30px;
+ 
+}
+.travel{
+  position: absolute;
+  
+}
+.travelp{
+  width:100%;
+  position: relative;
+  padding-top: 5%;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.travelp p {
+font-size: 13px;
+letter-spacing: 1px;
+
+}
+.travel1 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+.modal-open .travel2 {
+  -webkit-animation: fade-in 1.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
+          animation: fade-in 1.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-300px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-60%);
+            transform: translateX(-60%);
+  }
+}
+.titi{
+  position: absolute;
+  bottom: 4%;
+  left: 5%;
+}
+
+.modal-open .modals .titi img{
+  width: 30%;
+  float: left;
+  height:100%;
+ border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(60, 59, 59, 0.71), 0 3px 6px rgb(64, 60, 60);
+}
+.titic{
+   width: 29%;
+  float: left;
+  height:100%;
+  position: relative;
+  left: 5%;
+  color: white;
+}
+.titic p{
+  position: relative;
+  margin-top: 34%;
+
+}
+.list-inline a{
+  list-style-type: none;
+  color: white;
+}
+.fa-instagram:hover{
+ background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.fa-globe:hover{
+  color: #005eff;
+}
+.travell{
+  height: 100%;
+}
+/*travel media query */
+@media only screen and (max-width: 767px) {
+
+  .blue1{
+ 
+  position: relative;
+  width:100%;
+  height: 281px;
+  text-align: center;
+     cursor: pointer;
+   z-index: 100;
+   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+   background-color: #000000;
+background-image: linear-gradient(147deg, #191919 0%, #131313 74%);
+
+ 
+
+}
+   .modal-open .modals  {
+  animation: none;
+  left: 0;
+  height: auto;
+  top:0;
+  }
+  .modal-open .modals img {   
+    width: 100%;
+    height: 480px;
+    margin-left: 0px;
+}
+.modal-open .modals .tit {
+    width: 99%;
+    left: 0; 
+}
+.modal-open .travel2 {
+  top: 0;
+   animation: none;
+}
+.travel2 .modals1 {
+   
+    width: 100%;
+    height: 100%;
+
+    left: 0px;
+    padding-bottom: 20px;
+
+    }
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+}
